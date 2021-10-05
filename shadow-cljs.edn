@@ -1,0 +1,13 @@
+{:deps true
+
+ :dev-http {8001 "public"}
+
+ :builds
+ {:ex1 {:target :browser
+       :output-dir "public/js"
+       :asset-path "/js"
+       :modules {:main {:entries [rpdf.ex1]}}}
+  :ex2 {:target :browser
+       :output-dir "public/js"
+       :asset-path "/js"
+       :modules {:main {:entries [rpdf.ex2]}}}}}
