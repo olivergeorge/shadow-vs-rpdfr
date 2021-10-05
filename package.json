@@ -1,0 +1,13 @@
+{
+  "name": "rpdf",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "@react-pdf/renderer": "^1.6.17",
+    "iconv-lite": "^0.6.3",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "shadow-cljs": "^2.15.10"
+  }
+}
