@@ -8,5 +8,5 @@ watch:
 
 build:
 	yarn
-	npx shadow-cljs watch ex3
+	npx shadow-cljs compile ex3
 	npx webpack ./target/index.js -o public/js/libs
